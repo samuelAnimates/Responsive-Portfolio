@@ -1,0 +1,330 @@
+* {
+	box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+	color: #4aaaa5;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #4aaaa5;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("../images/stardust.png");
+}
+
+footer {
+	background-color: #666666;
+	bottom: 0;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	border-top: 5px solid #4aaaa5;
+}
+
+header {
+	background-color: #ffffff;
+	width: 100%;
+	border-bottom: 2px solid #cccccc;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.bodycontainer{
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	padding: 20px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.connecticonscontainer{
+	margin: auto;
+	padding: 15px 0px 30px 0px;
+}
+
+.copyright{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 9px;
+	text-align: center;
+	color: #cccccc;
+	padding: 35px;
+}
+
+.headeraboutbox{
+	float: left;
+	width: 80px;
+	height: 15px;
+	padding: 0px 15px 0px 0px;
+	text-align: right;
+}
+
+.headercontactbox{
+	float: left;
+	width: 80px;
+	height: 15px;
+	padding: 0px 0px 0px 15px;
+	text-align: left;
+}
+
+.headercontainer{
+	margin: auto;
+	width: 960px;
+	height: 70px;
+	background-color: #ffffff;
+}
+
+.headermain{
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	padding-top: 20px;
+	width: 200px;
+	height: 70px;
+	float: left;
+	background-color: #4aaaa5;
+}
+
+.headerportfoliobox{
+	float: left;
+	width: 80px;
+	padding: 0px 15px 0px 15px;
+	height: 15px;
+	text-align: center;
+	border-left: thin solid #ddd;
+	border-right: thin solid #ddd;
+}
+
+.headerside{
+	width: 270px;
+	height: 40px;
+	float: right;
+	background-color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 20px 0px 0px 15px;
+}
+
+
+.icon{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+.leftcontainer{
+	background-color: white;
+	border: thin solid #dddddd;
+	width: 650px;
+	height: auto;
+	padding: 15px;
+	float: left;
+}
+
+.leftcontainerbody{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 16px;
+	line-height: 24px;
+	height: auto;
+	padding: 10px;
+}
+
+.leftcontainerheading{
+	border-bottom: thick solid #dddddd;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #4aaaa5;
+	padding: 10px;
+	margin auto;
+}
+
+
+.messageinput{
+	height: 100px;
+	width: 100%;
+	border: 1px solid #ddd;
+    padding: 6px 12px;
+    color: #777777;
+}
+
+
+.picframe{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-right: 24px;
+	padding-bottom: 24px;
+}
+
+.portfoliothumbnaillabel{
+	position: absolute;
+	bottom: 10px;
+	height: 40px;
+	width: 100%;
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.portfoliothumbnailboxleft{
+	float: left;
+	width: 47.5%;
+	height: auto;
+	margin-bottom: 40px;
+	background-color: black;
+	position: relative;
+}
+
+.portfoliothumbnailboxright{
+	float: right;
+	width: 47.5%;
+	height: auto;
+	margin-bottom: 40px;
+	background-color: blue;
+	position: relative;
+}
+
+.profpic{
+	max-width: 100%;
+	height: auto;
+}
+
+.rightcontainer{
+	background-color: white;
+	border: thin solid #dddddd;
+	float: right;
+	width: 270px;
+}
+
+.rightcontainerheading{
+	color: #4aaaa5;
+	margin: auto;
+	text-align: center;
+    border-bottom: thin solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bold;
+	padding: 30px 15px 15px 15px;
+}
+
+.singlelineinput{
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 6px 12px;
+    color: #777777;
+}
+
+.thumbframe{
+		width: 100%;
+	}
+
+@media screen and (max-width: 980px) {
+	.leftcontainer {
+		width: 72.5%;
+		padding: 20px;
+	}
+
+	.portfoliothumbnailboxleft{
+		width: 47.5%;
+		height: auto;
+	}
+
+	.portfoliothumbnailboxright{
+		width: 47.5%;
+		height: auto;
+	}
+
+	.rightcontainer{
+		width: 22.5%;
+		padding: 20px;
+	}
+
+	.picframe{
+	padding-right: 24px;
+	padding-bottom: 24px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.leftcontainer {
+		width: 95%;
+		padding: 15px;
+		margin: auto;
+		float: none;
+	}
+	
+	.portfoliothumbnailboxleft{
+		width: 47.5%;
+		height: auto;
+	}
+
+	.portfoliothumbnailboxright{
+		width: 47.5%;
+		height: auto;
+	}
+
+	.rightcontainer{
+		width: 95%;
+		padding: 15px;
+		margin: auto;
+		float: none;
+	}
+
+	.picframe{
+	padding-right: 16px;
+	padding-bottom: 16px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.leftcontainer {
+		width: 95%;
+		padding: 10px;
+		margin: auto;
+		float: none;
+	}
+	.rightcontainer{
+		width: 95%;
+		padding: 10px;
+		margin: auto;
+		float: none;
+	}
+
+	.portfoliothumbnailboxleft{
+		width: 95%;
+		height: auto;
+		float: none;
+	}
+
+	.portfoliothumbnailboxright{
+		width: 95%;
+		height: auto;
+		float: none;
+	}
+
+	.picframe{
+	padding-right: 16px;
+	padding-bottom: 16px;
+	}
+}
